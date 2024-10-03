@@ -29,7 +29,7 @@ public class DetectorMeta : MonoBehaviour
             pantallaFinal.SetActive(true);
             other.GetComponent<MovimientoJugador>().enabled = false;
             estaJugando = false;
-            textLabelTime.text = contador.ToString();
+            textLabelTime.text = contador.ToString() + "  segundos";
 
         }
 
